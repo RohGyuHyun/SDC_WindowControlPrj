@@ -1,0 +1,492 @@
+﻿빌드 시작: 2016-05-18 오후 6:36:59
+     1>2 노드의 "D:\Trisys\Project\ANI\윈도우검사기\Main Source\SDC_WindowControlPrj\SDC_WindowControlPrj.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\SDC_WindowControlPrj.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\EzSoftware UC\AXL(Library)\C, C++" /I./Ethernet /I./Device /I"C:\Program Files\EzSoftware UC\AXL(Library)\C, C++" /I./Util /I./Data /I./Dialog /I./ /I"C:\Program Files\3D Active Button Magic\Wrappers\cpp.net" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\SDC_WindowControlPrj.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\EzSoftware UC\AXL(Library)\C, C++" /I./Ethernet /I./Device /I"C:\Program Files\EzSoftware UC\AXL(Library)\C, C++" /I./Util /I./Data /I./Dialog /I./ /I"C:\Program Files\3D Active Button Magic\Wrappers\cpp.net" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\SDC_WindowControlPrj.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Data\ModelData.cpp Data\SystemData.cpp Device\Axis.cpp Device\IO.cpp Device\Motion.cpp Dialog\DialogAlarmTrendView.cpp Dialog\DialogAxisJog.cpp Dialog\DialogAxisManager.cpp Dialog\DialogAxisOrigin.cpp Dialog\DialogCheckIO.cpp Dialog\DialogErrMsgBox.cpp Dialog\DialogLogIn.cpp Dialog\DialogMainCOM.cpp Dialog\DialogMainData.cpp Dialog\DialogMainView.cpp Dialog\DialogManual.cpp Dialog\DialogMsgBox.cpp Dialog\DialogNumberBox.cpp Dialog\DialogProductInfoView.cpp Dialog\DialogTackTimeView.cpp Dialog\DialogTeach.cpp Dialog\GetTextDlg.cpp Ethernet\clientsok.CPP Ethernet\serversok.CPP OCX\btnenh.cpp SDC_WindowControlPrj.cpp SDC_WindowControlPrjDlg.cpp Util\MsgBox.cpp Util\ProfileDataIF.cpp Util\TimeCheck.cpp Util\UtilFunc.cpp
+         ModelData.cpp
+         SystemData.cpp
+         Axis.cpp
+     1>Device\Axis.cpp(1035): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>Device\Axis.cpp(1056): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+         IO.cpp
+         Motion.cpp
+     1>Device\Motion.cpp(37): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+         DialogAlarmTrendView.cpp
+         DialogAxisJog.cpp
+         DialogAxisManager.cpp
+         DialogAxisOrigin.cpp
+         DialogCheckIO.cpp
+         DialogErrMsgBox.cpp
+         DialogLogIn.cpp
+         DialogMainCOM.cpp
+         DialogMainData.cpp
+         DialogMainView.cpp
+         DialogManual.cpp
+         DialogMsgBox.cpp
+         DialogNumberBox.cpp
+     1>Dialog\DialogNumberBox.cpp(152): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>Dialog\DialogNumberBox.cpp(154): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+         DialogProductInfoView.cpp
+         DialogTackTimeView.cpp
+         컴파일하고 있습니다...
+         DialogTeach.cpp
+         GetTextDlg.cpp
+         clientsok.CPP
+         serversok.CPP
+         btnenh.cpp
+         SDC_WindowControlPrj.cpp
+         SDC_WindowControlPrjDlg.cpp
+     1>SDC_WindowControlPrjDlg.cpp(20): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+     1>SDC_WindowControlPrjDlg.cpp(451): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1492): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1501): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1502): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1511): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1512): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1521): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1522): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1531): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1532): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1541): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1542): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1551): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1552): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1561): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1562): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1571): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1572): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1588): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1589): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1659): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1660): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1670): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1671): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1729): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1730): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1739): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1740): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1749): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1750): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1759): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1760): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1769): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1770): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1779): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1780): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1789): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1790): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1799): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1800): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1809): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1810): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1819): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1820): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1829): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1830): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1839): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1840): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1855): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1856): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1865): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1866): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1910): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1911): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1932): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1933): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1950): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(1951): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2015): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2016): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2037): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2038): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2057): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2058): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2099): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2100): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2109): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2110): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2120): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2130): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2155): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2156): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2178): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2179): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2188): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2189): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2198): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2199): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2221): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2231): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2232): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2256): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2257): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2280): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2281): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2299): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2300): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2309): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2310): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2324): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2325): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2340): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2341): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2350): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2351): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2370): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2371): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2400): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2401): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2423): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2424): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2433): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2434): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2466): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2467): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2484): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2485): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2522): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2523): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2553): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2554): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2582): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2583): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2606): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2607): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2622): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2623): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2632): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2633): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2657): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2658): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2676): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2677): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2686): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2687): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2701): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2702): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2719): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2720): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2729): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2730): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2756): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2757): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2775): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2776): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2785): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2786): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2809): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2810): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2819): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2820): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2829): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2830): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2839): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2840): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2855): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2856): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2865): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2866): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2888): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2889): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2898): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2899): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2988): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(2989): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3023): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3024): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3043): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3044): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3053): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3054): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3076): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3077): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3086): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3087): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3109): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3110): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3120): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3149): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3175): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3176): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3260): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3312): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3321): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3322): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3332): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3333): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3342): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>SDC_WindowControlPrjDlg.cpp(3343): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+         MsgBox.cpp
+         ProfileDataIF.cpp
+         TimeCheck.cpp
+         UtilFunc.cpp
+     1>Util\UtilFunc.cpp(68): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>Util\UtilFunc.cpp(122): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>Util\UtilFunc.cpp(22): warning C4101: 'strToFile' :참조되지 않은 지역 변수입니다.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0412" /IRelease\ /nologo /fo"Release\SDC_WindowControlPrj.res" SDC_WindowControlPrj.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Release\SDC_WindowControlPrj.exe.embed.manifest.res" Release\SDC_WindowControlPrj_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Trisys\Project\ANI\윈도우검사기\Main Source\SDC_WindowControlPrj\Release\SDC_WindowControlPrj.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\EzSoftware UC\AXL(Library)\Library\32Bit" /LIBPATH:"C:\Program Files\EzSoftware UC\AXL(Library)\Library\32Bit" AXL.lib winmm.lib /MANIFEST /ManifestFile:"Release\SDC_WindowControlPrj.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Trisys\Project\ANI\윈도우검사기\Main Source\SDC_WindowControlPrj\Release\SDC_WindowControlPrj.pdb" /SUBSYSTEM:WINDOWS /STACK:"10485760" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Trisys\Project\ANI\윈도우검사기\Main Source\SDC_WindowControlPrj\Release\SDC_WindowControlPrj.lib" /MACHINE:X86 Release\SDC_WindowControlPrj.res
+         Release\SDC_WindowControlPrj.exe.embed.manifest.res
+         Release\ModelData.obj
+         Release\SystemData.obj
+         Release\Axis.obj
+         Release\IO.obj
+         Release\Motion.obj
+         Release\DialogAlarmTrendView.obj
+         Release\DialogAxisJog.obj
+         Release\DialogAxisManager.obj
+         Release\DialogAxisOrigin.obj
+         Release\DialogCheckIO.obj
+         Release\DialogErrMsgBox.obj
+         Release\DialogLogIn.obj
+         Release\DialogMainCOM.obj
+         Release\DialogMainData.obj
+         Release\DialogMainView.obj
+         Release\DialogManual.obj
+         Release\DialogMsgBox.obj
+         Release\DialogNumberBox.obj
+         Release\DialogProductInfoView.obj
+         Release\DialogTackTimeView.obj
+         Release\DialogTeach.obj
+         Release\GetTextDlg.obj
+         Release\clientsok.obj
+         Release\serversok.obj
+         Release\btnenh.obj
+         Release\SDC_WindowControlPrj.obj
+         Release\SDC_WindowControlPrjDlg.obj
+         Release\stdafx.obj
+         Release\MsgBox.obj
+         Release\ProfileDataIF.obj
+         Release\TimeCheck.obj
+         Release\UtilFunc.obj
+     1>LINK : warning LNK4075: '/INCREMENTAL'이(가) '/LTCG' 사양으로 인해 무시됩니다.
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Release\SDC_WindowControlPrj.exe.embed.manifest" /manifest Release\SDC_WindowControlPrj.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         SDC_WindowControlPrj.vcxproj -> D:\Trisys\Project\ANI\윈도우검사기\Main Source\SDC_WindowControlPrj\Release\SDC_WindowControlPrj.exe
+       FinalizeBuildStatus:
+         "Release\SDC_WindowControlPrj.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\SDC_WindowControlPrj.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\Trisys\Project\ANI\윈도우검사기\Main Source\SDC_WindowControlPrj\SDC_WindowControlPrj.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:15.13

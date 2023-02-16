@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{f5712fca-3681-4ccc-a286-ce98cb9d7fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OCX">
+      <UniqueIdentifier>{a21842ff-43e7-4568-92da-36b54b15e255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DATA">
+      <UniqueIdentifier>{eae3de00-d4b1-48dd-b91f-351278362131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{4a3cf24f-fff6-4f69-8f66-9476220a3241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{0cd0316b-8e8d-4e96-94f5-4a43f6995759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ethernet">
+      <UniqueIdentifier>{9710b23a-918c-42dc-9285-430a1190e687}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\SDC_WindowControlPrj.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\SDC_WindowControlPrj.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Memo.txt" />
+    <None Include="res\OPEN.ICO">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\bitmap_i.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Icon\Off.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Icon\On.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\SDC_WindowInspPrj.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDC_WindowControlPrj.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SDC_WindowControlPrjDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\GetTextDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="OCX\btnenh.h">
+      <Filter>OCX</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogMainView.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogTeach.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\ModelData.h">
+      <Filter>DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\SystemData.h">
+      <Filter>DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\UtilFunc.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogMsgBox.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogNumberBox.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogTackTimeView.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogProductInfoView.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogAlarmTrendView.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogManual.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogLogIn.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogCheckIO.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogAxisOrigin.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogMainCOM.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\MsgBox.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogAxisJog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogAxisManager.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogMainData.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\TimeCheck.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\Axis.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\Motion.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\IO.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ProfileDataIF.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Ethernet\clientsok.H">
+      <Filter>Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="Ethernet\serversok.H">
+      <Filter>Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogErrMsgBox.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDC_WindowControlPrj.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SDC_WindowControlPrjDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\GetTextDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="OCX\btnenh.cpp">
+      <Filter>OCX</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogMainView.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogTeach.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\ModelData.cpp">
+      <Filter>DATA</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\SystemData.cpp">
+      <Filter>DATA</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\UtilFunc.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogMsgBox.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogNumberBox.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogTackTimeView.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogProductInfoView.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogAlarmTrendView.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogManual.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogLogIn.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogCheckIO.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogAxisOrigin.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogMainCOM.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\MsgBox.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogAxisJog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogAxisManager.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogMainData.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\TimeCheck.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\Axis.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\Motion.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\IO.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ProfileDataIF.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Ethernet\clientsok.CPP">
+      <Filter>Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="Ethernet\serversok.CPP">
+      <Filter>Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogErrMsgBox.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SDC_WindowControlPrj.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

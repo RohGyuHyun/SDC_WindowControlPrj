@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AA7CD752-7CFB-43B9-AAFA-F7BF92CE71E5}</ProjectGuid>
+    <RootNamespace>SDC_WindowControlPrj</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\EzSoftware UC\AXL%28Library%29\C, C++;./Ethernet;./Device;C:\Program Files\EzSoftware UC\AXL%28Library%29\C, C++;./Util;./Data;./Dialog;./;C:\Program Files\3D Active Button Magic\Wrappers\cpp.net;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\EzSoftware UC\AXL%28Library%29\Library\32Bit;C:\Program Files\EzSoftware UC\AXL%28Library%29\Library\32Bit;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>AXL.lib;winmm.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\EzSoftware UC\AXL%28Library%29\C, C++;./Ethernet;./Device;C:\Program Files\EzSoftware UC\AXL%28Library%29\C, C++;./Util;./Data;./Dialog;./;C:\Program Files\3D Active Button Magic\Wrappers\cpp.net;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\EzSoftware UC\AXL%28Library%29\Library\32Bit;C:\Program Files\EzSoftware UC\AXL%28Library%29\Library\32Bit;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>AXL.lib;winmm.lib</AdditionalDependencies>
+      <StackReserveSize>10485760</StackReserveSize>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\bitmap1.bmp" />
+    <None Include="..\bitmap_i.bmp" />
+    <None Include="Memo.txt" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\Icon\Off.bmp" />
+    <None Include="res\Icon\On.bmp" />
+    <None Include="res\OPEN.ICO" />
+    <None Include="res\SDC_WindowControlPrj.ico" />
+    <None Include="res\SDC_WindowControlPrj.rc2" />
+    <None Include="res\SDC_WindowInspPrj.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data\ModelData.h" />
+    <ClInclude Include="Data\SystemData.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Device\Axis.h" />
+    <ClInclude Include="Device\IO.h" />
+    <ClInclude Include="Device\Motion.h" />
+    <ClInclude Include="Dialog\DialogAlarmTrendView.h" />
+    <ClInclude Include="Dialog\DialogAxisJog.h" />
+    <ClInclude Include="Dialog\DialogAxisManager.h" />
+    <ClInclude Include="Dialog\DialogAxisOrigin.h" />
+    <ClInclude Include="Dialog\DialogCheckIO.h" />
+    <ClInclude Include="Dialog\DialogErrMsgBox.h" />
+    <ClInclude Include="Dialog\DialogLogIn.h" />
+    <ClInclude Include="Dialog\DialogMainCOM.h" />
+    <ClInclude Include="Dialog\DialogMainData.h" />
+    <ClInclude Include="Dialog\DialogMainView.h" />
+    <ClInclude Include="Dialog\DialogManual.h" />
+    <ClInclude Include="Dialog\DialogMsgBox.h" />
+    <ClInclude Include="Dialog\DialogNumberBox.h" />
+    <ClInclude Include="Dialog\DialogProductInfoView.h" />
+    <ClInclude Include="Dialog\DialogTackTimeView.h" />
+    <ClInclude Include="Dialog\DialogTeach.h" />
+    <ClInclude Include="Dialog\GetTextDlg.h" />
+    <ClInclude Include="Ethernet\clientsok.H" />
+    <ClInclude Include="Ethernet\serversok.H" />
+    <ClInclude Include="OCX\btnenh.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SDC_WindowControlPrj.h" />
+    <ClInclude Include="SDC_WindowControlPrjDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Util\MsgBox.h" />
+    <ClInclude Include="Util\ProfileDataIF.h" />
+    <ClInclude Include="Util\TimeCheck.h" />
+    <ClInclude Include="Util\UtilFunc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Data\ModelData.cpp" />
+    <ClCompile Include="Data\SystemData.cpp" />
+    <ClCompile Include="Device\Axis.cpp" />
+    <ClCompile Include="Device\IO.cpp" />
+    <ClCompile Include="Device\Motion.cpp" />
+    <ClCompile Include="Dialog\DialogAlarmTrendView.cpp" />
+    <ClCompile Include="Dialog\DialogAxisJog.cpp" />
+    <ClCompile Include="Dialog\DialogAxisManager.cpp" />
+    <ClCompile Include="Dialog\DialogAxisOrigin.cpp" />
+    <ClCompile Include="Dialog\DialogCheckIO.cpp" />
+    <ClCompile Include="Dialog\DialogErrMsgBox.cpp" />
+    <ClCompile Include="Dialog\DialogLogIn.cpp" />
+    <ClCompile Include="Dialog\DialogMainCOM.cpp" />
+    <ClCompile Include="Dialog\DialogMainData.cpp" />
+    <ClCompile Include="Dialog\DialogMainView.cpp" />
+    <ClCompile Include="Dialog\DialogManual.cpp" />
+    <ClCompile Include="Dialog\DialogMsgBox.cpp" />
+    <ClCompile Include="Dialog\DialogNumberBox.cpp" />
+    <ClCompile Include="Dialog\DialogProductInfoView.cpp" />
+    <ClCompile Include="Dialog\DialogTackTimeView.cpp" />
+    <ClCompile Include="Dialog\DialogTeach.cpp" />
+    <ClCompile Include="Dialog\GetTextDlg.cpp" />
+    <ClCompile Include="Ethernet\clientsok.CPP" />
+    <ClCompile Include="Ethernet\serversok.CPP" />
+    <ClCompile Include="OCX\btnenh.cpp" />
+    <ClCompile Include="SDC_WindowControlPrj.cpp" />
+    <ClCompile Include="SDC_WindowControlPrjDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Util\MsgBox.cpp" />
+    <ClCompile Include="Util\ProfileDataIF.cpp" />
+    <ClCompile Include="Util\TimeCheck.cpp" />
+    <ClCompile Include="Util\UtilFunc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SDC_WindowControlPrj.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SDC_WindowControlPrj.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
